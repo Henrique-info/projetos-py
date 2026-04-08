@@ -1,3 +1,6 @@
+# Nomes dos componentes da atividade:
+# João Henrique e Daniel Henry
+
 class empregado:
     def __init__(self, nome, cpf, salario):
         self.nome = nome 
@@ -44,7 +47,7 @@ class empregado:
 class TestarEmpregado:
     def main():
         nome = input('Digite seu nome: ')
-        cpf = input('Digite seu CPF: ')
+        cpf = int(input('Digite seu CPF: '))
         salario = float(input('Digite seu salário: '))
 
         trabalhador = empregado(nome, cpf, salario)
@@ -65,7 +68,7 @@ if __name__ == '__main__':
     TestarEmpregado.main()
 
  # maneira que utilizamos para fazer os testes dos metodos
- # obs: ajuda de rafael joaquim       
+ # obs: ajuda de rafael joaquim. Ele pediu para falar com vincente para sabe se ele pode gmhar alguns pontos extra.      
 '''
 sla = empregado('', '', 0.0)
 
