@@ -64,8 +64,7 @@ class TestarEmpregado:
         trabalhador.setSalario(mudarSalario)
         print('Seu novo salário: ', trabalhador.getSalario())
 
-if __name__ == '__main__':
-    TestarEmpregado.main()
+TestarEmpregado.main()
 
  # maneira que utilizamos para fazer os testes dos metodos
  # obs: ajuda de rafael joaquim. Ele pediu para falar com vincente para sabe se ele pode gmhar alguns pontos extra.      
