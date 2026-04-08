@@ -71,13 +71,13 @@ TestarEmpregado.main()
 '''
 sla = empregado('', '', 0.0)
 
-nome = input('qual seu nome, seu falido: ')
+nome = input('qual seu nome: ')
 sla.setNome(nome)
 
-cpf = input('Qual o cpf do neymar: ')
+cpf = input('Qual o cpf: ')
 sla.setCpf(cpf)
 
-salario = float(input('Diga o seu salario seu morador de baixo da ponte: '))
+salario = float(input('Diga o seu salario: '))
 sla.setSalario(salario)
 
 print('nome:', sla.getNome())
